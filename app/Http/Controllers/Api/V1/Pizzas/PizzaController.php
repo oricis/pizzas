@@ -7,5 +7,14 @@ use Illuminate\Http\Request;
 
 class PizzaController extends Controller
 {
-    //
+
+    public function index()
+    {
+        # code...
+    }
+
+    public function find(int $pizzaId)
+    {
+        # code...
+    }
 }

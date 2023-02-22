@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Http\Controllers\Web\V1\Pizzas;
+namespace App\Http\Controllers\Web\V1\Ingredients;
 
 use App\Http\Controllers\Web\WebController;
-use App\Models\Web\V1\Pizzas\Pizza;
+use App\Models\Web\V1\Ingredients\Pizza;
 
-class PizzasController extends WebController
+class IngredientsController extends WebController
 {
-    private string $view = 'pages.pizzas.';
-    private string $indexRoute = 'pizzas.index';
+    private string $view = 'pages.ingredients.';
+    private string $indexRoute = 'ingredients.index';
     private string $model = Pizza::class;
 
 

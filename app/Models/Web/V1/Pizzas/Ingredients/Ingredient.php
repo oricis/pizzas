@@ -4,7 +4,7 @@ namespace App\Models\Web\V1\Pizzas;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Pizza extends Model
+class Ingredient extends Model
 {
     protected $appends = [
 
@@ -12,9 +12,7 @@ class Pizza extends Model
     protected $fillable = [
         'active',
         'name',
-        'slug',
-        'src',
-        'alt',
+        'price',
     ];
-    protected $table = 'pizzas';
+    protected $table = 'ingredients';
 }

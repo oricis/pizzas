@@ -6,5 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Pizza extends Model
 {
-    //
+    protected $appends = [
+
+    ];
+    protected $table = 'pizzas';
 }
