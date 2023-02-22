@@ -16,8 +16,8 @@
     <meta property="og:description"   content="Página personal de Moisés Alcocer - Desarrollador Web">
     <meta property="og:image"         content="{{ asset('img/mariposa.png') }}">
 
-
-    <link rel="stylesheet" href="{!! asset('css/app.min.css') !!}?v5">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="{!! asset('css/app.min.css') !!}?v1">
 </head>
 <body>
     <div class="wrap">

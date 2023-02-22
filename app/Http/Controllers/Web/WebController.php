@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Web;
 
 use Illuminate\Http\RedirectResponse;
 
-class WebController extends WebController
+class WebController
 {
     protected string $messageOk = 'La acción realizada con éxito';
     protected string $messageErr = 'La acción ha fallado';

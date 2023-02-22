@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Web\V1\Ingredients;
+namespace App\Http\Controllers\Web\V1\Pizzas\Ingredients;
 
 use App\Http\Controllers\Web\WebController;
 use App\Http\Requests\Web\V1\Pizzas\Ingredients\IngredientFormRequest;
