@@ -3,7 +3,9 @@
 namespace App\Http\Controllers\Web\V1\Pizzas;
 
 use App\Http\Controllers\Web\WebController;
+use App\Http\Requests\Web\V1\Pizzas\PizzaFormRequest;
 use App\Models\Web\V1\Pizzas\Pizza;
+use App\Services\Pizzas\PizzaService;
 
 class PizzasController extends WebController
 {
@@ -26,8 +28,8 @@ class PizzasController extends WebController
     }
 
     public function store(
-        pizzaFormRequest $request,
-        pizzaService $service
+        PizzaFormRequest $request,
+        PizzaService $service
     )
     {
         $success = $service->store($request);
@@ -58,9 +60,9 @@ class PizzasController extends WebController
     }
 
     public function update(
-        pizzaFormRequest $request,
+        PizzaFormRequest $request,
         int $id,
-        pizzaService $service
+        PizzaService $service
     )
     {
         $success = $service->update($request, $id);
